@@ -7,7 +7,7 @@ $ cd responsi3
 ```
 
 ### Cara Menjalankan
-Jalankan perintah berikut untuk membuat `image` dan menjalankan `container ` menggunakan image responsi2
+Jalankan perintah berikut untuk menjalankan `container `
 
 ```sh
 $ docker compose up -d

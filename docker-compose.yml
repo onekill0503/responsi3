@@ -2,25 +2,15 @@ version: '3'
 
 services:
   db:
-    image: mysql:5.7
-    volumes: 
-      - ./resources/responsi2.sql:/docker-entrypoint-initdb.d/responsi2.sql
-    environment:
-      MYSQL_ROOT_PASSWORD: helloworld
-      MYSQL_DATABASE: responsi2
-      MYSQL_USER: pmauser
-      MYSQL_PASSWORD: helloworld
-    ports:
+    image: onekill0503/db-data:latest
+    ports: 
       - "9906:3306"
     networks:
       - default
   web:
-    build: ./web/ 
-    container_name: web
+    image: onekill0503/web-data:latest
     depends_on:
       - db
-    volumes:
-      - ./resources/web/:/var/www/html/
     ports:
       - "8080:80"
     stdin_open: true

@@ -10,7 +10,7 @@ $ cd responsi3
 Jalankan perintah berikut untuk menjalankan `container `
 
 ```sh
-$ docker compose up -d
+$ docker-compose up -d
 ```
 lalu buka browser dengan url `http://locahost:8080` untuk melihat hasil nya.
 <br>

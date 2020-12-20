@@ -14,4 +14,4 @@ $ docker compose up -d
 ```
 lalu buka browser dengan url `http://locahost:8080` untuk melihat hasil nya.
 <br>
-*Notes : Jika masih terdapat error , mohon tunggu beberapa menit lalu buka kembali browsernya. karena butuh waktu untuk menginstall semua library*
+*Notes : Jika masih terdapat error , mohon tunggu beberapa menit lalu buka kembali browsernya. karena butuh waktu untuk menjalankan beberapa servis*

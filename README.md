@@ -13,10 +13,10 @@ Jalankan perintah berikut untuk menjalankan `container `
 $ docker-compose up -d
 ```
 lalu buka browser dengan url `http://locahost:8080` untuk melihat hasil nya.
-<br>
+<br />
 *Notes : Jika masih terdapat error , mohon tunggu beberapa menit lalu buka kembali browsernya. karena butuh waktu untuk menjalankan beberapa servis*
-<br>
+<br />
 ### Informasi Image Dockerhub
-Karna pada docker-compose menggunakan lebih dari 2 image . berikut adalah tautan 2 image yang saya upload ke dockerhub
-image db-data : https://hub.docker.com/r/onekill0503/db-data
+Karna pada docker-compose menggunakan lebih dari 2 image . berikut adalah tautan 2 image yang saya upload ke dockerhub<br />
+image db-data : https://hub.docker.com/r/onekill0503/db-data<br />
 image web-data : https://hub.docker.com/r/onekill0503/web-data

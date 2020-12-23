@@ -1,5 +1,5 @@
 <?php
-    $c = new mysqli('db' , 'pmauser' , 'helloworld' , 'responsi2');
+    $c = new mysqli('db' , 'pmauser' , 'helloworld' , 'responsi3');
     
     function fecthing_post_data($c , $data) {
         $e = true;

@@ -1,5 +1,5 @@
 <?php 
-    $c = new mysqli('db' , 'pmauser' , 'helloworld' , 'responsi2');
+    $c = new mysqli('db' , 'pmauser' , 'helloworld' , 'responsi3');
     $mhs = $c->query("SELECT * FROM mahasiswa order by nim ASC");
 ?>
 

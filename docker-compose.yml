@@ -6,8 +6,6 @@ services:
     container_name: db
     ports: 
       - "9906:3306"
-    networks:
-      - default
   web:
     build: ./web/
     container_name: web

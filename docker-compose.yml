@@ -2,13 +2,15 @@ version: '3'
 
 services:
   db:
-    image: onekill0503/db-data:latest
+    build: ./db/
+    container_name: db
     ports: 
       - "9906:3306"
     networks:
       - default
   web:
-    image: onekill0503/web-data:latest
+    build: ./web/
+    container_name: web
     depends_on:
       - db
     ports:
